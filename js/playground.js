@@ -47,9 +47,9 @@ var myGameArea = {
             myGameArea.key = e.keyCode;
         })
         window.addEventListener('keyup', function (e) {
-            if(e.keyCode == myGameArea.key) {
+            //if(e.keyCode == myGameArea.key) {
                 myGameArea.key = false;   
-            }
+            //}
         })
     }, 
     clear : function(){
