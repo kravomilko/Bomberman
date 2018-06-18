@@ -1,3 +1,4 @@
+//define global variables
 function createPlayground() {
     myGameArea.start();
     fico = new createPlayer("./sources/players/fico.png", 10, 10);
